@@ -1,6 +1,6 @@
 import React,{useState,useEffect} from 'react';
 import { useHistory } from "react-router-dom";
-import { MDBContainer, MDBRow, MDBCol,MDBCard,MDBInput,MDBTable, MDBTableBody, MDBTableHead } from 'mdbreact';
+import { MDBContainer, MDBRow, MDBCol,MDBCard,MDBInput } from 'mdbreact';
 import axios from 'axios';
 
 function Todo() {
