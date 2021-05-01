@@ -90,11 +90,11 @@ function Todo() {
             return <MDBCol size="4">
                     <MDBCard className="p-3">
                         
-                        <p>{user.title}</p>
-                        <p>{user.text}</p>
+                        <p style={{fontWeight:"600"}}>{user.title}</p>
+                        <p className="text-justify">{user.text}</p>
                         <MDBRow>
                             <MDBCol size="6">
-                                <p className="float-left"><button type="submit"  className="btn btn-green" style={{padding: ".84rem 1.14rem"}} onClick={()=>editUser(user.id)}>
+                                <p className="float-left" ><button type="submit"  className="btn btn-green" style={{padding: ".84rem 1.14rem"}} onClick={()=>editUser(user.id)}>
                 Edit</button></p>
                             </MDBCol>
                             <MDBCol size="6">
